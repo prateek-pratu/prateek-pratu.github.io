@@ -1,0 +1,58 @@
+/* navcolor=#72BF78;
+backgroung-color=#A0D683;
+notepad-color=#D3EE98;
+fotter=#FEFF9F; */
+
+* {
+  font-family: "Times New Roman";
+}
+.navbar {
+  background-color: #72BF78;
+  font-family: "Segoe UI";
+  color: white;
+  margin: 0;
+}
+.notesmain{
+  display: flexbox;
+  background-color: #A0D683;
+}
+
+.add {
+  color: whitesmoke;
+  background-color: black;
+}
+input {
+  border: 0;
+}
+button {
+  border: 0ch;
+}
+.list {
+  border-style: solid;
+  border-radius: 25px;
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");;
+  background-color: white;
+ 
+}
+.list h3 {
+  margin: 20px;
+}
+.notelist {
+  align-self: center;
+  margin: 20px;
+  ;
+}
+.hide{  
+  /* display:none; */
+  visibility: hidden;
+  height:0px;
+}
+table{
+  border:3px;
+}
+.h-2{
+  height: 40px
+}
+.add-btn{
+  width: 300px;
+}
